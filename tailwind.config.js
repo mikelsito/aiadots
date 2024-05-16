@@ -10,7 +10,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        godfather: ["TheGodfather-v2", ...fontFamily.serif],
+        godfather: "TheGodfather-v2",
       },
       colors: {
         gfblack: "#030303",

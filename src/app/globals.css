@@ -4,5 +4,5 @@
 
 @font-face {
   font-family: "TheGodfather-v2";
-  src: "../public/static/fonts/TheGodfather-v2.ttf";
+  src: url(../../public/static/fonts/TheGodfather-v2.ttf);
 }
