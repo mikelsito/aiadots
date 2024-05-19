@@ -1,12 +1,16 @@
 import Image from "next/image";
 
+import image1 from "../../public/static/images/image1.jpg";
+import image2 from "../../public/static/images/image2.jpg";
+import image3 from "../../public/static/images/image3.jpg";
+
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <h1 className="font-godfather text-6xl">
         Ableism is a Desecration of the Sacred
       </h1>
-      <Image src="" width={500} height={500} alt="" />
+      <Image src={image2} width={500} height={500} alt="" />
       <ul>
         <li>
           Ableism is when non-disabled people get to decide what quality of life
@@ -25,7 +29,7 @@ export default function Home() {
           justifiable.
         </li>
       </ul>
-      <Image src="" width={500} height={500} alt="" />
+      <Image src={image3} width={500} height={500} alt="" />
       <ul>
         <li>
           Ableism asks why won’t you die and then has the audacity to be
@@ -43,7 +47,7 @@ export default function Home() {
           murder.
         </li>
       </ul>
-      <Image src="" width={500} height={500} alt="" />
+      <Image src={image1} width={500} height={500} alt="" />
       <ul>
         <li>
           Ableism feels like a knife cutting you open bit by bit while people
