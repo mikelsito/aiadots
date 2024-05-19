@@ -6,10 +6,8 @@ import image3 from "../../public/static/images/image3.jpg";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <h1 className="font-godfather text-6xl">
-        Ableism is a Desecration of the Sacred
-      </h1>
+    <main className="flex min-h-screen flex-col items-center justify-between p-12">
+      <h1 className="font-godfather text-6xl pb-12">Home</h1>
       <Image src={image2} width={500} height={500} alt="" />
       <ul>
         <li>
