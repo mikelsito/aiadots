@@ -1,5 +1,4 @@
 import Image from "next/image";
-import List from "./components/List";
 
 import image1 from "../../public/static/images/image1.jpg";
 import image2 from "../../public/static/images/image2.jpg";
@@ -7,7 +6,7 @@ import image3 from "../../public/static/images/image3.jpg";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between max-w-screen-lg p-12 m-auto">
+    <main className="flex min-h-screen flex-col items-center justify-between max-w-screen-lg p-12 m-auto text-xl">
       <Image src={image2} width={500} height={500} alt="" />
       <ul className="list-disc p-12">
         <li className="p-3">
