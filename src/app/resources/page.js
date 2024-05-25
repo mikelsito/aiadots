@@ -6,7 +6,11 @@ export default function Resources() {
         Disability Justice and Collective Liberation MUST READS
       </p>
       <p>
-        <a className="hover:text-gfred" href="https://www.talilalewis.com/blog">
+        <a
+          className="hover:text-gfred"
+          href="https://www.talilalewis.com/blog"
+          target="_blank"
+        >
           https://www.talilalewis.com/blog
         </a>
       </p>
@@ -14,6 +18,7 @@ export default function Resources() {
         <a
           className="hover:text-gfred"
           href="https://www.bitchmedia.org/article/mutual-aid-collective-survival-minneapolis"
+          target="_blank"
         >
           https://www.bitchmedia.org/article/mutual-aid-collective-survival-minneapolis
         </a>
@@ -22,6 +27,7 @@ export default function Resources() {
         <a
           className="hover:text-gfred"
           href="https://abolishtime.medium.com/identifying-and-rejecting-ableism-in-movement-work-322e2c85a80c"
+          target="_blank"
         >
           https://abolishtime.medium.com/identifying-and-rejecting-ableism-in-movement-work-322e2c85a80c
         </a>
@@ -30,6 +36,7 @@ export default function Resources() {
         <a
           className="hover:text-gfred"
           href="https://docs.google.com/document/d/1qkhYKLmNSulh1xyPBVxmgIMmM15MCFtrNH2Pqint5SY/mobilebasic?urp=gmail_link"
+          target="_blank"
         >
           https://docs.google.com/document/d/1qkhYKLmNSulh1xyPBVxmgIMmM15MCFtrNH2Pqint5SY/mobilebasic?urp=gmail_link
         </a>
@@ -38,12 +45,17 @@ export default function Resources() {
         <a
           className="hover:text-gfred"
           href="https://disabilityvisibilityproject.com/"
+          target="_blank"
         >
           https://disabilityvisibilityproject.com/
         </a>
       </p>
       <p>
-        <a className="hover:text-gfred" href="https://www.sinsinvalid.org/">
+        <a
+          className="hover:text-gfred"
+          href="https://www.sinsinvalid.org/"
+          target="_blank"
+        >
           https://www.sinsinvalid.org/
         </a>
       </p>
@@ -51,6 +63,7 @@ export default function Resources() {
         <a
           className="hover:text-gfred"
           href="https://mrac.org/accessibility-resources/"
+          target="_blank"
         >
           https://mrac.org/accessibility-resources/
         </a>
@@ -59,6 +72,7 @@ export default function Resources() {
         <a
           className="hover:text-gfred"
           href="https://www.disabilityintersectionalitysummit.com/"
+          target="_blank"
         >
           https://www.disabilityintersectionalitysummit.com/
         </a>
@@ -68,6 +82,7 @@ export default function Resources() {
         <a
           className="hover:text-gfred"
           href="https://leavingevidence.wordpress.com/2015/02/06/medical-industrial-complex-visual/"
+          target="_blank"
         >
           https://leavingevidence.wordpress.com/2015/02/06/medical-industrial-complex-visual/
         </a>
@@ -76,6 +91,7 @@ export default function Resources() {
         <a
           className="hover:text-gfred"
           href="https://www.susanraffo.com/blog/healing-histories-disrupting-the-medical-industrial-complex-1"
+          target="_blank"
         >
           https://www.susanraffo.com/blog/healing-histories-disrupting-the-medical-industrial-complex-1
         </a>
