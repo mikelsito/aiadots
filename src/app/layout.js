@@ -3,6 +3,7 @@ import "./globals.css";
 
 import Header from "./components/Header";
 import HomeBaner from "./components/HomeBanner";
+import Footer from "./components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,6 +19,7 @@ export default function RootLayout({ children }) {
         <Header />
         <HomeBaner />
         {children}
+        <Footer />
       </body>
     </html>
   );
