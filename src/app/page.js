@@ -8,6 +8,11 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between max-w-screen-lg p-12 m-auto text-xl">
       <Image src={image2} width={500} height={500} alt="" />
+      <p className="text-base text-right w-500">
+        <i>
+          Dreaming New Worlds Are Possible in a Tree of Worth by Ella Quainton
+        </i>
+      </p>
       <ul className="list-disc p-12">
         <li className="p-3">
           Ableism is when non-disabled people get to decide what quality of life
@@ -27,6 +32,11 @@ export default function Home() {
         </li>
       </ul>
       <Image src={image3} width={500} height={500} alt="" />
+      <p className="text-base text-right w-500">
+        <i>
+          When Technology Can Assist But Not Control Nature by Sishir Bommakanti
+        </i>
+      </p>
       <ul className="list-disc p-12">
         <li className="p-3">
           Ableism asks why won’t you die and then has the audacity to be
@@ -45,6 +55,9 @@ export default function Home() {
         </li>
       </ul>
       <Image src={image1} width={500} height={500} alt="" />
+      <p className="text-base text-right w-500">
+        <i>Wounded Bird in the Sky Delivers a Message by Shaista Langaria</i>
+      </p>
       <ul className="list-disc p-12">
         <li className="p-3">
           Ableism feels like a knife cutting you open bit by bit while people
@@ -60,6 +73,18 @@ export default function Home() {
           burden and of course you couldn’t take it anymore.
         </li>
       </ul>
+      <p className="text-base text-right w-500">
+        <i>
+          "Ableism Is..." Commandments turned into bullet points by Brittanie
+          Hernandez Wilson from the poem{" "}
+          <a
+            className="hover:underline"
+            href="https://cripstory.wordpress.com/2017/04/01/naming-ableism/"
+          >
+            "Naming Ableism" by Maria R. Palacios
+          </a>
+        </i>
+      </p>
     </main>
   );
 }

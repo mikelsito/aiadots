@@ -1,4 +1,7 @@
+"use client";
 import React from "react";
+
+// import Hamburger from "./Hamburger";
 
 const Header = () => {
   return (
@@ -6,7 +9,10 @@ const Header = () => {
       <h1 className="font-godfather text-6xl pt-12 tracking-wide drop-shadow-white-sm">
         Ableism is a Desecration of the Sacred
       </h1>
-      <ul className="pt-12 pb-6 text-xl font-normal text-gfblack">
+
+      {/* <Hamburger /> */}
+
+      <ul className="pt-14 pb-6 text-xl font-normal text-gfblack">
         <a href="/" className="hover:drop-shadow-white-sm">
           Home
         </a>{" "}
