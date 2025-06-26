@@ -1,7 +1,7 @@
 export default function Resources() {
   const resourceCategories = [
     {
-      title: "Disability Justice and Collective Liberation MUST READS",
+      title: "Disability Justice is Collective Liberation",
       resources: [
         {
           href: "https://www.talilalewis.com/blog",
@@ -62,12 +62,12 @@ export default function Resources() {
   ];
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-12">
-      <h1 className="font-godfather text-3xl pb-12">Resources</h1>
+    <main className="flex min-h-screen flex-col items-center justify-between p-10">
+      <h1 className="font-godfather text-4xl pb-8">Resources</h1>
       <div className="max-w-4xl w-full">
         {resourceCategories.map((category, index) => (
           <section key={index} className="mb-12">
-            <h2 className="text-2xl font-bold underline mb-6">{category.title}</h2>
+            <h2 className="text-2xl font-bold underline mb-6 flex items-center justify-center">{category.title}</h2>
             <div className="space-y-6">
               {category.resources.map((resource, rIndex) => (
                 <div key={rIndex}>

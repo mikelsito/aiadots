@@ -1,4 +1,5 @@
 import Image from "next/image";
+import HomeBanner from "./components/HomeBanner";
 
 import image1 from "../../public/static/images/image1.jpg";
 import image2 from "../../public/static/images/image2.jpg";

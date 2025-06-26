@@ -1,6 +1,6 @@
 import React from "react";
 
-const Header = () => {
+const Homebanner = () => {
   return (
     <div className="header flex flex-col items-center justify-between bg-gfblack text-white p-12">
       <uL className="max-w-screen-lg flex flex-col justify-center items-center">
@@ -18,4 +18,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Homebanner;
