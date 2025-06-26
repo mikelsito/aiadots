@@ -18,10 +18,10 @@ const Header = () => {
           Home
         </Link>{" "}
         |{" "}
-        <Link href="/films" className="hover:drop-shadow-white-sm">
+        {/* <Link href="/films" className="hover:drop-shadow-white-sm">
           Films
-        </Link>{" "}
-        |{" "}
+        </Link>{" "} 
+        |{" "} */}
         <Link href="/resources" className="hover:drop-shadow-white-sm">
           Resources
         </Link>
