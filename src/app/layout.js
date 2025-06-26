@@ -2,7 +2,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 
 import Header from "./components/Header";
-import HomeBaner from "./components/HomeBanner";
+import HomeBanner from "./components/HomeBanner";
 import Footer from "./components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className + " bg-gfgrey"}>
         <Header />
-        <HomeBaner />
+        <HomeBanner />
         {children}
         <Footer />
       </body>

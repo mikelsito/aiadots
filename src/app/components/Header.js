@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import Link from "next/link";
 
 // import Hamburger from "./Hamburger";
 
@@ -13,17 +14,17 @@ const Header = () => {
       {/* <Hamburger /> */}
 
       <ul className="pt-14 pb-6 text-xl font-normal text-gfblack">
-        <a href="/" className="hover:drop-shadow-white-sm">
+        <Link href="/" className="hover:drop-shadow-white-sm">
           Home
-        </a>{" "}
+        </Link>{" "}
         |{" "}
-        <a href="films" className="hover:drop-shadow-white-sm">
+        <Link href="/films" className="hover:drop-shadow-white-sm">
           Films
-        </a>{" "}
+        </Link>{" "}
         |{" "}
-        <a href="resources" className="hover:drop-shadow-white-sm">
+        <Link href="/resources" className="hover:drop-shadow-white-sm">
           Resources
-        </a>
+        </Link>
       </ul>
     </div>
   );
